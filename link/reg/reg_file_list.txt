@@ -1,0 +1,2 @@
+../src/units/reg/reg.v
+../tb/reg_tb/reg_tb.v

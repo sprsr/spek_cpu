@@ -1,0 +1,17 @@
+../src/units/top_module/rv32.v
+../tb/rv32_tb/rv32_tb.v
+../src/units/alu/alu.v
+../src/units/branch_comp/branch_comp.v
+../src/units/common/mux2x1.v
+../src/units/common/mux3x1.v
+../src/units/control/decode_ctl/decode_ctl.v
+../src/units/control/execute_ctl/execute_ctl.v
+../src/units/control/access_ctl/access_ctl.v
+../src/units/control/wb_ctl/wb_ctl.v
+../src/units/instr_mgr/instr_mgr.v
+../src/units/dmem/dmem.v
+../src/units/imem/imem.v
+../src/units/immGen/immGen.v
+../src/units/pc/PC.v
+../src/units/reg/reg.v
+../src/units/debug/debug.v

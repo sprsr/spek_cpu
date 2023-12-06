@@ -1,0 +1,2 @@
+../src/units/pc/PC.v
+../tb/pc_tb/pc_tb.v
