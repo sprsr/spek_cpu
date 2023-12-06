@@ -1,0 +1,143 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Nov 26 06:25:40 2023
+[*]
+[dumpfile] "/home/sp/repos/rv32_processor/run/rv32_tb.vcd"
+[dumpfile_mtime] "Sun Nov 26 06:23:38 2023"
+[dumpfile_size] 25857
+[savefile] "/home/sp/repos/rv32_processor/run/waveform_signals.gtkw"
+[timestart] 0
+[size] 1455 1346
+[pos] 33798 32995
+*-5.087204 112 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] rv32_tb.
+[treeopen] rv32_tb.c0.
+[treeopen] rv32_tb.inst_instr_mgr.
+[sst_width] 243
+[signals_width] 323
+[sst_expanded] 1
+[sst_vpaned_height] 716
+@28
+rv32_tb.c0.clk
+rv32_tb.c0.rst
+@200
+-PC
+@28
+rv32_tb.inst_pc.sel_pc
+@22
+rv32_tb.inst_pc.w_pc[31:0]
+rv32_tb.inst_pc.r_instr_fetch[31:0]
+@200
+-Decode CTL
+@22
+rv32_tb.c0.inst_decode_ctl.pc_de[31:0]
+rv32_tb.c0.inst_decode_ctl.instr_de[31:0]
+@200
+-Register File
+@22
+rv32_tb.inst_register.addrD[4:0]
+rv32_tb.inst_register.dataD[31:0]
+rv32_tb.inst_register.addrA[4:0]
+rv32_tb.inst_register.dataA[31:0]
+rv32_tb.inst_register.addrB[4:0]
+rv32_tb.inst_register.dataB[31:0]
+@28
+rv32_tb.inst_register.regWEn
+@200
+-Execute CTL
+@22
+rv32_tb.inst_execute_ctl.r_instr_exe[31:0]
+rv32_tb.inst_execute_ctl.data_a_exe[31:0]
+rv32_tb.c0.inst_access_ctl.data_b_exe[31:0]
+@200
+-Branch Compare
+@28
+rv32_tb.c0.inst_branch_comp.br_comp
+@22
+rv32_tb.c0.inst_branch_comp.i_dataA[31:0]
+rv32_tb.c0.inst_branch_comp.i_dataB[31:0]
+@28
+rv32_tb.c0.inst_branch_comp.brUn
+rv32_tb.c0.inst_branch_comp.brEq
+@29
+rv32_tb.c0.inst_branch_comp.brLT
+@28
+rv32_tb.c0.inst_branch_comp.r_Eq
+rv32_tb.c0.inst_branch_comp.r_LT
+@200
+-Instruction Manager
+@22
+rv32_tb.inst_instr_mgr.instr_de[31:0]
+rv32_tb.inst_instr_mgr.instr_exe[31:0]
+rv32_tb.inst_instr_mgr.instr_acc[31:0]
+@28
+rv32_tb.inst_instr_mgr.r_hazard_a
+rv32_tb.inst_instr_mgr.r_hazard_b
+@200
+-Immediate Generator
+@22
+rv32_tb.inst_immGen.immediate[31:0]
+@200
+-ALU
+@22
+rv32_tb.c0.inst_alu.aluSel[3:0]
+@28
+rv32_tb.inst_mux2x1_A.sel
+rv32_tb.inst_mux2x1_B.sel
+@22
+rv32_tb.c0.inst_alu.i_1[31:0]
+rv32_tb.c0.inst_alu.i_2[31:0]
+rv32_tb.c0.inst_alu.result[31:0]
+@200
+-Branch Compare
+@28
+rv32_tb.c0.inst_branch_comp.brUn
+rv32_tb.c0.inst_branch_comp.brEq
+rv32_tb.c0.inst_branch_comp.brLT
+@22
+rv32_tb.c0.inst_branch_comp.i_dataA[31:0]
+rv32_tb.c0.inst_branch_comp.i_dataB[31:0]
+@200
+-Access CTL
+@22
+rv32_tb.c0.inst_access_ctl.r_instr_acc[31:0]
+rv32_tb.c0.inst_access_ctl.alu_out_acc[31:0]
+rv32_tb.c0.inst_access_ctl.r_data_b_acc[31:0]
+@200
+-Data Cache
+@22
+rv32_tb.c0.inst_dmem.i_addr[31:0]
+rv32_tb.c0.inst_dmem.dataW[31:0]
+@28
+rv32_tb.c0.inst_dmem.memRW
+@22
+rv32_tb.c0.inst_dmem.o_data[31:0]
+@200
+-Write Back CTL
+@22
+rv32_tb.inst_wb_ctl.r_instr_wb[31:0]
+rv32_tb.inst_wb_ctl.r_dmem_out_wb[31:0]
+@28
+rv32_tb.inst_wb_ctl.r_wb_sel[1:0]
+rv32_tb.inst_wb_ctl.regWEn
+@200
+-WB MUX
+@22
+rv32_tb.inst_mux3x1_wb.a[31:0]
+rv32_tb.inst_mux3x1_wb.b[31:0]
+rv32_tb.inst_mux3x1_wb.c[31:0]
+@28
+rv32_tb.inst_mux3x1_wb.sel[1:0]
+@22
+rv32_tb.inst_mux3x1_wb.y[31:0]
+@200
+-Register Debug
+@22
+rv32_tb.c0.inst_debug.reg2[31:0]
+rv32_tb.c0.inst_debug.reg3[31:0]
+rv32_tb.c0.inst_debug.reg4[31:0]
+rv32_tb.c0.inst_debug.reg3[31:0]
+rv32_tb.c0.inst_debug.reg5[31:0]
+rv32_tb.c0.inst_debug.reg11[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

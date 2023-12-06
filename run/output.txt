@@ -1,0 +1,2 @@
+VCD info: dumpfile rv32_tb.vcd opened for output.
+WM Destroy
