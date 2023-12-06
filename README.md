@@ -3,7 +3,7 @@
  <img width=200px height=200px src="docs/riscv pic.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">RV32 Processor</h3>
+<h3 align="center">Spek CPU</h3>
 
 <div align="center">
 
