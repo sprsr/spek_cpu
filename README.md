@@ -49,7 +49,7 @@ What things you need to install the software and how to install them.
 - [YoSys](https://github.com/YosysHQ/yosys) - Synthesis Suite
 - [Risc V Assembler Python Package] (https://github.com/celebi-pkg/riscv-assembler) - Assembler helper
 
-```
+
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Verilog 2012](https://ece.uah.edu/~gaede/cpe526/2012%20System%20Verilog%20Language%20Reference%20Manual.pdf) - Language
 - [Icarus Verilog](https://github.com/steveicarus/iverilog) - Compiler
