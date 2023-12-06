@@ -1,0 +1,17 @@
+Immediate Sign Extend:
+JAL    J Type
+JALR   I Type
+LB     I Type
+LH     I Type
+LW     I Type
+SB     S Type
+SH     S Type
+SW     S Type
+ADDI   I Type 
+XORI   I Type
+ORI    I Type
+ANDI   I Type
+
+Both Signed Comp:  ALU: (Signed: 1100, Unsigned: 1011)
+SLT
+SLTI
