@@ -220,15 +220,14 @@ sa_cache #() data_cache(
     .rst(rst),
     .i_addr(w_alu_out_acc),
     .dataW(w_reg_data_B_acc),
-    .i_memory_line
+    //.i_memory_line(),
+    //.i_memory_response(),
 )
 dmem inst_dmem(
     .clk(clk),
     .rst(rst),
     .i_addr(w_alu_out_acc),
     .dataW(w_reg_data_B_acc),
-    //.i_memory_line(),
-    //.i_memory_response(),
     .memRW(w_mem_rw),
     .o_data(w_dmem_out)
 );
