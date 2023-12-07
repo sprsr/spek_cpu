@@ -227,6 +227,8 @@ sa_cache #() data_cache(
     .i_tag(w_alu_out_acc[31:14])
     .i_index(w_alu_out_acc[13:6])
     .i_offset(w_alu_out_acc[5:0])
+    //.line_data(),
+    //.cache_miss(),
 )
 dmem inst_dmem(
     .clk(clk),
