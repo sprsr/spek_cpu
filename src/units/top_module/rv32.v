@@ -231,8 +231,8 @@ sa_cache #() data_cache(
     //.cache_miss(),
     //.o_evict_data(),
     //.o_evict_addr(),
-    //
-)
+    //.o_evict()
+);
 dmem inst_dmem(
     .clk(clk),
     .rst(rst),
