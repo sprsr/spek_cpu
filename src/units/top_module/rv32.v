@@ -226,7 +226,7 @@ sa_cache #() data_cache(
     .o_data(w_dmem_out),
     .i_tag(w_alu_out_acc[])
     .i_index(w_alu_out_acc[])
-    .i_offset(w_alu_out_acc[])
+    .i_offset(w_alu_out_acc[5:0])
 )
 dmem inst_dmem(
     .clk(clk),
