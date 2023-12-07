@@ -233,6 +233,7 @@ sa_cache #() data_cache(
     //.o_evict_addr(),
     //.o_evict()
 );
+/*
 dmem inst_dmem(
     .clk(clk),
     .rst(rst),
@@ -240,7 +241,7 @@ dmem inst_dmem(
     .dataW(w_reg_data_B_acc),
     .memRW(w_mem_rw),
     .o_data(w_dmem_out)
-);
+);*/
 
 mux3x1 inst_mux3x1_wb(
     .a(w_pc_4_wb),
