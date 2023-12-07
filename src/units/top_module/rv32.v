@@ -215,6 +215,13 @@ alu inst_alu(
     .zero_flag(w_alu_zero_flag)
 );
 
+sa_cache #() data_cache(
+    .clk(clk),
+    .rst(rst),
+    .i_addr(w_alu_out_acc),
+    .dataW(w_reg_data_B_acc),
+    .i_memory_line
+)
 dmem inst_dmem(
     .clk(clk),
     .rst(rst),
