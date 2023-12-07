@@ -222,6 +222,11 @@ sa_cache #() data_cache(
     .dataW(w_reg_data_B_acc),
     //.i_memory_line(),
     //.i_memory_response(),
+    .memRW(w_mem_rw),
+    .o_data(w_dmem_out),
+    .i_tag(w_alu_out_acc[])
+    .i_index(w_alu_out_acc[])
+    .i_offset(w_alu_out_acc[])
 )
 dmem inst_dmem(
     .clk(clk),
