@@ -230,6 +230,8 @@ sa_cache #() data_cache(
     //.line_data(),
     //.cache_miss(),
     //.o_evict_data(),
+    //.o_evict_addr(),
+    //
 )
 dmem inst_dmem(
     .clk(clk),
