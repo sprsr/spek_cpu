@@ -63,5 +63,5 @@ What things you need to install the software and how to install them.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - Open Source EDA Tools
-- Risc V Org
+- Risc V Organization 
 - [Onur Mutlu](ttps://www.youtube.com/channel/UCIwQ8uOeRFgOEvBLYc3kc3g) (Computer Architecture lectures on Youtube)
