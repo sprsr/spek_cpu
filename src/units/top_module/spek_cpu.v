@@ -1,4 +1,4 @@
-module rv32(
+module spek_cpu(
     input clk,
     input rst
 );
