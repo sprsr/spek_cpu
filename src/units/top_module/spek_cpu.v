@@ -56,6 +56,11 @@ wire [31:0] w_instr_wb;
 
 wire [511:0] w_memory_line;
 wire w_memory_response;
+wire [511:0] w_cache_data_out;
+wire w_cache_miss;
+wire [511:0] w_evict_cache_data;
+wire [31:0] w_evict_addr;
+wire w_evict_bit;
 
 
 PC inst_pc(
