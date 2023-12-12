@@ -232,9 +232,9 @@ sa_cache #() data_cache(
     .i_memory_response(w_memory_response),
     .memRW(w_mem_rw),
     .o_data(w_dmem_out),
-    .i_tag(w_alu_out_acc[31:14])
-    .i_index(w_alu_out_acc[13:6])
-    .i_offset(w_alu_out_acc[5:0])
+    .i_tag(w_alu_out_acc[31:14]),
+    .i_index(w_alu_out_acc[13:6]),
+    .i_offset(w_alu_out_acc[5:0]),
     .line_data(w_cache_data_out),
     .cache_miss(w_cache_miss),
     .o_evict_data(w_evict_cache_data),
