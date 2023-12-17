@@ -20,7 +20,8 @@
   A single core capable of handling every RV32I Instruction.  Minimal verification has been conducted thusfar, however the framework to run simulations and view waveforms are in place.
 To Do: Verify Cache,
 Add a Memory Controller,
-Verify rest of RV32I
+Verify rest of RV32I,
+Get synthesis to run,
     <br> 
 </p>
 
