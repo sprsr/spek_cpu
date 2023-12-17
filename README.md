@@ -19,7 +19,8 @@
 <p align="center"> A simple Risc V CPU supporting a 5 stage pipeline and in conformance with RISC V 32I Instruction set.  <br>
   A single core capable of handling every RV32I Instruction.  Minimal verification has been conducted thusfar, however the framework to run simulations and view waveforms are in place.
 To Do: Verify Cache,
-Add a Memory Controller
+Add a Memory Controller,
+Verify rest of RV32I
     <br> 
 </p>
 
